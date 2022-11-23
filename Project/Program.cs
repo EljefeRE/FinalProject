@@ -21,3 +21,6 @@ void PrintArray(string[] array)
 
 string[] array = {"the", "some", "word", "32"};
 string[] newarray = new string[array.Length];
+
+FillArray (array, newarray);
+PrintArray(newarray);
