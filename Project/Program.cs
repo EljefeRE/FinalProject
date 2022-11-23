@@ -11,5 +11,13 @@
     }
 }
 
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+            Console.Write($"{array[i]} ");
+    }
+}
+
 string[] array = {"the", "some", "word", "32"};
 string[] newarray = new string[array.Length];
